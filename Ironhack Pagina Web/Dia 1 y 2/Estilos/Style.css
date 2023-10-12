@@ -1,0 +1,54 @@
+h1 {
+    color: pink; 
+    text-decoration: underline; 
+   }
+   
+   p {
+     font-size: 18px;
+     width: 400px;
+     text-indent: 50px;
+     text-align: justify;
+   }
+   span{
+    color: orangered
+   }
+
+   .bridge-blue{
+    background-color: rgba(0, 179, 255, 0.885)
+   }
+
+   .yellow-box {
+    background-color: yellow;
+  }
+  
+  .blue-box {
+    background-color: blue;
+  }
+   .red-box {
+    background-color: red;
+  }
+  body{
+    background-color:#00D1AE;
+  }
+  .menu{
+    width: 400px;
+    height: 50px;
+    background-color:beige;
+  }
+  .content{
+    width: 400px;
+    height: 80px;
+    background-color: red;
+  }
+  .featured{
+    font-weight: bold;
+  }
+
+  *{
+    color: greenyellow;
+  }
+  
+  #cover-box{
+    color: navy;
+
+  }

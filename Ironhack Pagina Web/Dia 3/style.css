@@ -1,0 +1,30 @@
+div {
+    border: 2px solid black;
+    width: 400px;
+    float: left;
+  }
+  #div-1, #div-5, #div-7{
+    height: 150px;
+  }
+  #div-3, #div-4, #div-9{
+    height: 50px;
+    font-style: oblique;
+  }
+  #div-2, #div-6, #div-8{
+    height: 200px;
+  }
+  #div-2 {
+    border-bottom: red;
+  }
+  #col-1, #col-2, #col-3{
+    border-color: blue;
+    border-width: 0;
+    font-weight: bold;
+  }
+  .margen-der{
+    margin-right: 20px;
+  }
+  .margen-bajo{
+    margin-bottom: 20px;
+  }
+  

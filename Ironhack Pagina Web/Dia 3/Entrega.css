@@ -1,0 +1,108 @@
+#Title{
+    text-transform: uppercase
+}
+
+#header-1{
+    background-color: rgba(228, 228, 74, 0.349);
+    height: 10%;
+    width: 27.5%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 0;
+    border-right: 1px;
+    border-right-color: gray;
+    border-style: solid;
+    line-height: 120%;
+    float: left;
+    text-decoration: line-through;
+}
+
+#header-2{
+    background-color: rgba(228, 228, 74, 0.349);
+    height: 10%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 0;
+    border-left: 1px;
+    border-left-color: gray;
+    border-style: solid;
+    line-height: 330%;
+    margin-left: 25%;
+    margin-right: 1%;
+    text-decoration: underline;
+}
+#columna-1{
+    position:fixed;
+    height: 100%;
+    width: 25%;
+    margin-left: -0.3%;
+    float: left;
+
+}
+#sidebar-1{
+    background-color: rgba(240, 128, 128, 0.603);
+    height: 38.5%;
+    margin-bottom: -20;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border: 0;
+    border-bottom: 1px;
+    border-bottom-color: gray;
+    border-style: solid;
+    line-height: 1200%;
+}
+#sidebar-2{
+    background-color: rgba(240, 128, 128, 0.603);
+    height: 38.5%;
+    margin-bottom: -20;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    line-height: 1200%;
+}
+
+#columna-2{
+    position:fixed;
+    height: 100%;
+    width: 70%;
+    margin-left: 27%;
+}
+#main{
+    background-color: rgba(144, 238, 144, 0.483);
+    height: 65%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    line-height: 2000%;
+}
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#footer{
+    text-align: justify;
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    height: 8.5%; 
+    border-radius: 12px;
+    line-height: normal;
+    padding: 1% 2% 2%;
+}
+#marcado{
+    background-color: lightgoldenrodyellow;
+}
+
+body{
+    text-align: center;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(81, 79, 79);
+}
+
+
+
+

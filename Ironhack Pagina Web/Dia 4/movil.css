@@ -1,0 +1,34 @@
+#marco{
+    background-color: rgba(0, 0, 0, 0.696);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#titulo{
+    background-color: pink;
+    height: 5%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#link{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+
+    #link1{
+        height: 10%;
+        border-right: 12px;
+        border-right-color: black;
+        border-style: solid;
+        border: 0;
+        line-height: 250%;
+    }
+
+}
+
+body{
+
+}
