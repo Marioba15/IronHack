@@ -1,4 +1,7 @@
-
+/* Estilo para deshabilitar el enfoque visual en todos los campos de entrada */
+input[type="text"]:focus {
+    outline: none; /* Quita el borde de enfoque */
+}
 #titulo {
     text-transform: uppercase;
     text-align: center;
@@ -17,6 +20,10 @@
 #x {
     color: rgb(52, 152, 219);
     font-weight: 600;
+}
+.pregunta-opcional {
+    color: #777; /* Cambia el color de la pregunta opcional */
+    font-style: italic; /* Puedes aplicar otros estilos aquí */
 }
 
 /* Estilos para el formulario */
@@ -127,9 +134,32 @@ ul {
 }
 
 
+body {
+    font-size: 16px;
+}
+
+/* Ocultar el contenedor de permisos por defecto */
+/*.permisos-container {
+    display: none;
+}
+
+/* Mostrar el contenedor de permisos cuando el radio "Sí" esté seleccionado */
+/*#conducir-si:checked + .permisos-container {
+    display: block;
+}
+
+/* Estilos específicos para dispositivos pequeños (móviles) */
 @media screen and (max-width: 768px) {
-    form {
-        width: 100%; /* Ajusta el ancho al 100% para dispositivos móviles */
-        margin: 0; /* Elimina el margen izquierdo y derecho */
+    body {
+        font-size: 14px;
+    }
+
+    .formulario-contenido {
+        max-width: 80%; /* Reducir el ancho del formulario */
+        padding: 10px; /* Reducir el espacio alrededor del formulario */
+    }
+    #google_translate_element {
+        margin-top: 10px; /* Agregar espacio entre el traductor y el contenido */
+        margin-left: 25px;
     }
 }
