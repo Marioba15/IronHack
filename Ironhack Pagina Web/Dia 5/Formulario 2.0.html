@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Formulario 2.0.css">
+</head>
+<body>
+    <div id="titulo">
+        <h1><span id="ua">ua</span><span id="x">x</span> motor</h1>
+    </div>
+    <div class="formulario-contenido">
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        
+            <label>¿Estás interesado en unirte a Motor Student?</label>
+            <div class="radio-group">
+                <input type="radio" id="si" name="interesado" value="si">
+                <label for="si">Sí</label>
+                <input type="radio" id="no" name="interesado" value="no">
+                <label for="no">No</label>
+            </div>
+        
+            <label for="carrera">Carrera:</label>
+            <select id="carrera" name="carrera">
+                <option value="ingenieria_mecanica">Ingeniería Mecánica</option>
+                <option value="ingenieria_aeroespacial">Ingeniería Aeroespacial</option>
+                <option value="ingenieria_quimica">Ingeniería Química</option>
+            </select>
+        
+            <label>Intereses:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="mecanica" name="intereses[]" value="mecanica">
+                <label for="mecanica">Mecánica</label>
+                <input type="checkbox" id="aerodinamica" name="intereses[]" value="aerodinamica">
+                <label for="aerodinamica">Aerodinámica</label>
+                <input type="checkbox" id="electronica" name="intereses[]" value="electronica">
+                <label for="electronica">Electrónica</label>
+            </div>
+        
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+        
+            <!-- Agrega un botón para enviar el formulario -->
+       <!--  <button type="submit" id="send">Enviar</button> -->
+        <div class="botones">
+            <a href="Gracias.html" id="boton">Enviar</a>
+            <a href="Portada.html" id="boton">Atras</a>
+
+        </div>
+        </form>
+    </div>
+</body>
+</html>

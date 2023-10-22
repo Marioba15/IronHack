@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+}
+
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://st.adasistemas.com/PortalesWeb/ITI/WEBCOITIM/_Private/Imagenes_Galerias/NOTICIA_2988_2023_10_9_8_57323.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Ajusta la opacidad solo del fondo */
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 80%; /* Ancho máximo del % de la pantalla */
+    margin: 0 auto; /* Centrar en la pantalla */
+}
+
+.confirmacion {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3vw;
+    color: rgba(106, 106, 106, 0.975);
+}
+
+#ua {
+    color: rgba(0, 0, 0, 0.729);
+}
+
+#x {
+    color: rgba(52, 152, 219, 0.789);
+}
+
+.boton {
+    display: block;
+    margin: 10px;
+    padding: 0.5em 1em; /* Tamaño de botón relativo */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em; /* Tamaño de fuente relativo */
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}

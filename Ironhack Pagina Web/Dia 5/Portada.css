@@ -1,0 +1,99 @@
+/*
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position:relative;
+}
+.contenido::before {
+    content: "";
+    background-image: url('https://s3-videos.uax.es/public/images/bkg-distribuidor.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Ajusta la opacidad (valor entre 0 y 1) 
+    display: block;
+    position: absolute;
+}*/
+
+.centrado {
+    text-align: center;
+    max-width: 33%; /* Establece el ancho máximo al % del ancho de la ventana */
+    margin: 0 auto; /* Margen automático para centrar el contenido */
+}
+
+body {
+    margin: 0;
+}
+
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3-videos.uax.es/public/images/bkg-distribuidor.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Ajusta la opacidad solo del fondo */
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.299); /* Fondo transparente */
+}
+
+.nombre {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    font-size: 8vw;
+    color: rgb(0, 0, 0);
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 5vw;
+    color: rgba(106, 106, 106, 0.975);
+}
+
+#ua {
+    color: rgba(0, 0, 0, 0.729);
+}
+
+#x {
+    color: rgba(52, 152, 219, 0.789);
+}
+
+.boton {
+    display: block;
+    margin: 10px;
+    padding: 0.5em 1em; /* Tamaño de botón relativo */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.5em; /* Tamaño de fuente relativo */
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #007bff, #f4f4f4); /* Franja de color en la parte superior */
+    background-size: 100% 20px; /* Altura de la franja de color en píxeles */
+    background-repeat: no-repeat;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la información personal */
+.informacion-personal h1 {
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el resumen */
+.resumen h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la experiencia laboral */
+.experiencia h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.experiencia li {
+    margin-bottom: 20px;
+}
+
+.experiencia h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la educación */
+.educacion h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.educacion li {
+    margin-bottom: 20px;
+}
+
+.educacion h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+.boton {
+    display: block;
+    margin: 10px;
+    padding: 0.5em 1em; /* Tamaño de botón relativo */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em; /* Tamaño de fuente relativo */
+}
